@@ -48,7 +48,7 @@ class TodoController extends Controller
         Todo::create($request->all());
 
         return redirect()->route('todo.index')
-            ->with('success', 'Project created successfully.');
+            ->with('success', 'Tache ajoutee avec success');
 
         
     }
